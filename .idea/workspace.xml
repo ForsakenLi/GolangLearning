@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f4f47c4-a26d-424e-b0d9-e302cbc8bda4" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg_test/func_test.go" afterDir="false" />
+    <list default="true" id="8f4f47c4-a26d-424e-b0d9-e302cbc8bda4" name="默认的" comment="learning to 14ch">
+      <change afterPath="$PROJECT_DIR$/csp/async_service_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/empty_interface/empty_interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/err_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/extension_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goroutine/goroutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/customer_type_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote_package/remote_package_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/share_mem/share_mem_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg_test/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg_test/string_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,70 +74,71 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go 测试.awesomeProject1/pkg_test 中的 TestDefer">
-    <configuration name="awesomeProject1/pkg_test 中的 TestDefer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 测试.awesomeProject1/csp 中的 TestAsyncService">
+    <configuration name="awesomeProject1/csp 中的 TestAsyncService" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/pkg_test" />
+      <working_directory value="$PROJECT_DIR$/csp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject1/pkg_test" />
+      <package value="awesomeProject1/csp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestDefer\E$" />
+      <pattern value="^\QTestAsyncService\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="awesomeProject1/pkg_test 中的 TestFn" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="awesomeProject1/csp 中的 TestService" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/pkg_test" />
+      <working_directory value="$PROJECT_DIR$/csp" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject1/pkg_test" />
+      <package value="awesomeProject1/csp" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestFn\E$" />
+      <pattern value="^\QTestService\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="awesomeProject1/pkg_test 中的 TestSlowFun" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="awesomeProject1/share_mem 中的 TestCounter" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/pkg_test" />
+      <working_directory value="$PROJECT_DIR$/share_mem" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject1/pkg_test" />
+      <package value="awesomeProject1/share_mem" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSlowFun\E$" />
+      <pattern value="^\QTestCounter\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="awesomeProject1/pkg_test 中的 TestStringConv" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="awesomeProject1/share_mem 中的 TestCounterThreadSafe" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/pkg_test" />
+      <working_directory value="$PROJECT_DIR$/share_mem" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject1/pkg_test" />
+      <package value="awesomeProject1/share_mem" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestStringConv\E$" />
+      <pattern value="^\QTestCounterThreadSafe\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="awesomeProject1/pkg_test 中的 TestVarParam" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="awesomeProject1/share_mem 中的 TestCounterWaitGroup" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject1" />
-      <working_directory value="$PROJECT_DIR$/pkg_test" />
+      <working_directory value="$PROJECT_DIR$/share_mem" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="awesomeProject1/pkg_test" />
+      <package value="awesomeProject1/share_mem" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestVarParam\E$" />
+      <pattern value="^\QTestCounterWaitGroup\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.awesomeProject1/pkg_test 中的 TestDefer" />
-        <item itemvalue="Go 测试.awesomeProject1/pkg_test 中的 TestVarParam" />
-        <item itemvalue="Go 测试.awesomeProject1/pkg_test 中的 TestSlowFun" />
-        <item itemvalue="Go 测试.awesomeProject1/pkg_test 中的 TestFn" />
-        <item itemvalue="Go 测试.awesomeProject1/pkg_test 中的 TestStringConv" />
+        <item itemvalue="Go 测试.awesomeProject1/csp 中的 TestAsyncService" />
+        <item itemvalue="Go 测试.awesomeProject1/csp 中的 TestService" />
+        <item itemvalue="Go 测试.awesomeProject1/share_mem 中的 TestCounterWaitGroup" />
+        <item itemvalue="Go 测试.awesomeProject1/share_mem 中的 TestCounterThreadSafe" />
+        <item itemvalue="Go 测试.awesomeProject1/share_mem 中的 TestCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -120,8 +146,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="learning to 14ch" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning to 14ch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="577" y="124" key="#GOPATH" timestamp="1604909333917">
@@ -144,25 +183,33 @@
       <screen x="0" y="23" width="1536" height="882" />
     </state>
     <state x="553" y="172" key="Github.UntrackedFilesDialog/0.23.1536.882@0.23.1536.882" timestamp="1605187985655" />
-    <state width="1494" height="226" key="GridCell.Tab.0.bottom" timestamp="1605192034834">
+    <state width="1494" height="221" key="GridCell.Tab.0.bottom" timestamp="1605513922393">
+      <screen x="0" y="25" width="1536" height="874" />
+    </state>
+    <state width="1494" height="226" key="GridCell.Tab.0.bottom/0.23.1536.882@0.23.1536.882" timestamp="1605196896594" />
+    <state width="1494" height="221" key="GridCell.Tab.0.bottom/0.25.1536.874@0.25.1536.874" timestamp="1605513922393" />
+    <state width="1494" height="221" key="GridCell.Tab.0.center" timestamp="1605513922392">
+      <screen x="0" y="25" width="1536" height="874" />
+    </state>
+    <state width="1494" height="226" key="GridCell.Tab.0.center/0.23.1536.882@0.23.1536.882" timestamp="1605196896593" />
+    <state width="1494" height="221" key="GridCell.Tab.0.center/0.25.1536.874@0.25.1536.874" timestamp="1605513922392" />
+    <state width="1494" height="221" key="GridCell.Tab.0.left" timestamp="1605513922391">
+      <screen x="0" y="25" width="1536" height="874" />
+    </state>
+    <state width="1494" height="226" key="GridCell.Tab.0.left/0.23.1536.882@0.23.1536.882" timestamp="1605196896593" />
+    <state width="1494" height="221" key="GridCell.Tab.0.left/0.25.1536.874@0.25.1536.874" timestamp="1605513922391" />
+    <state width="1494" height="221" key="GridCell.Tab.0.right" timestamp="1605513922392">
+      <screen x="0" y="25" width="1536" height="874" />
+    </state>
+    <state width="1494" height="226" key="GridCell.Tab.0.right/0.23.1536.882@0.23.1536.882" timestamp="1605196896594" />
+    <state width="1494" height="221" key="GridCell.Tab.0.right/0.25.1536.874@0.25.1536.874" timestamp="1605513922392" />
+    <state x="276" y="98" key="SettingsEditor" timestamp="1605498041136">
+      <screen x="0" y="25" width="1536" height="874" />
+    </state>
+    <state x="276" y="98" key="SettingsEditor/0.25.1536.874@0.25.1536.874" timestamp="1605498041136" />
+    <state x="368" y="204" key="Vcs.Push.Dialog.v2" timestamp="1605192285083">
       <screen x="0" y="23" width="1536" height="882" />
     </state>
-    <state width="1494" height="226" key="GridCell.Tab.0.bottom/0.23.1536.882@0.23.1536.882" timestamp="1605192034834" />
-    <state width="1494" height="226" key="GridCell.Tab.0.center" timestamp="1605192034833">
-      <screen x="0" y="23" width="1536" height="882" />
-    </state>
-    <state width="1494" height="226" key="GridCell.Tab.0.center/0.23.1536.882@0.23.1536.882" timestamp="1605192034833" />
-    <state width="1494" height="226" key="GridCell.Tab.0.left" timestamp="1605192034832">
-      <screen x="0" y="23" width="1536" height="882" />
-    </state>
-    <state width="1494" height="226" key="GridCell.Tab.0.left/0.23.1536.882@0.23.1536.882" timestamp="1605192034832" />
-    <state width="1494" height="226" key="GridCell.Tab.0.right" timestamp="1605192034834">
-      <screen x="0" y="23" width="1536" height="882" />
-    </state>
-    <state width="1494" height="226" key="GridCell.Tab.0.right/0.23.1536.882@0.23.1536.882" timestamp="1605192034834" />
-    <state x="368" y="204" key="Vcs.Push.Dialog.v2" timestamp="1605189138252">
-      <screen x="0" y="23" width="1536" height="882" />
-    </state>
-    <state x="368" y="204" key="Vcs.Push.Dialog.v2/0.23.1536.882@0.23.1536.882" timestamp="1605189138252" />
+    <state x="368" y="204" key="Vcs.Push.Dialog.v2/0.23.1536.882@0.23.1536.882" timestamp="1605192285083" />
   </component>
 </project>
